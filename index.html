@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="dist/main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<canvas class="js-image-meta-fixer" style="position: absolute; top: -10000px;"></canvas>
+<div class="js-image-editor-container">
+    <div class="js-load-from-disk">
+        <input type="file">
+    </div>
+</div>
+<img src="#" class="js-crop-img" />
+<div>
+    <button type="button" class="js-create-previews">Next</button>
+</div>
+
+<div class="modal-body">
+    <div class="row mlr-top-30">
+        <div class="mlr-sm-pull-left">
+            <canvas class="js-image-preview"></canvas>
+        </div>
+        <div class="mlr-sm-pull-left mlr-images-examples">
+            <div class="row mlr-sm-pull-right">
+                <ul class="list-inline">
+                    <li>
+                        <img src="about:blank" class="js-blur" data-opacity="0"/>
+                    </li>
+                    <li>
+                        <img src="src/masks/mlr-mask-1.png" alt="mask" class="js-mask mlr-mask"/>
+                    </li>
+                    <li>
+                        <img src="src/masks/mlr-mask-2.png" alt="mask" class="js-mask mlr-mask"/>
+                    </li>
+                    <li>
+                        <img src="src/masks/mlr-mask-anon.png" alt="mask" class="js-mask mlr-mask"/>
+                    </li>
+                </ul>
+                <ul class="list-inline mlr-top-15">
+                    <li>
+                        <img src="about:blank" class="js-blur" alt="blur" data-opacity="5"/>
+                    </li>
+                    <li>
+                        <img src="about:blank" class="js-blur" alt="blur" data-opacity="8"/>
+                    </li>
+                    <li>
+                        <img src="about:blank" class="js-blur" alt="blur" data-opacity="12"/>
+                    </li>
+                    <li>
+                        <img src="about:blank" class="js-blur" alt="blur" data-opacity="21"/>
+                    </li>
+                </ul>
+                <div class="mlr-top-15">
+                    <a href="#" class="js-add-2nd-mask hidden">add 2nd mask</a>
+                    <div class="js-add-2nd-mask-select hidden">another</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <canvas class="js-image-orig" style="position: absolute; top: -10000px;" hidpi="off"></canvas>
+    <canvas class="js-image-thumb" style="position: absolute; top: -10000px;"></canvas>
+</div>
+<script src="dist/scripts.js"></script>
+</body>
+</html>
