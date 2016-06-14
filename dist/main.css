@@ -6547,5 +6547,14 @@ button.close {
     display: none !important;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
+body .fake-canvas {
+  position: absolute;
+  top: -10000px;
+}
+body .mlr-mask {
+  max-width: 50px;
+}
+body .crop-img {
+  max-width: 700px;
+  max-height: 700px;
+}

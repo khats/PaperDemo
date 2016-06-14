@@ -1,4 +1,4 @@
 (function ($) {
-    var imageEditor = new $.ter.Image();
+    var imageEditor = new $.PaperImage();
     imageEditor.init();
 })(jQuery);

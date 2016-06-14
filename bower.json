@@ -1,0 +1,23 @@
+{
+  "name": "paper-demo",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "khats <alex.khats@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/khats/PaperDemo",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-less": "^3.3.4",
+    "paper": "^0.9.25",
+    "jquery": "^3.0.0",
+    "exif-js": "^2.1.1"
+  }
+}
